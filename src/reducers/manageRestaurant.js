@@ -33,7 +33,10 @@ function reviewReducer(state = [], action) {
       }
       return [...state, review]
     case "DELETE_REVIEW":
+<<<<<<< HEAD
       debugger
+=======
+>>>>>>> fd70a087820a338bd88a22c4e399e324a08419c2
       return state.filter(review=> review.id !==action.id)
     default:
       return state
